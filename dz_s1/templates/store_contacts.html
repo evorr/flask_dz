@@ -1,0 +1,13 @@
+{% extends 'base_store.html' %}
+
+{% block content %}
+<table cellpadding="10">
+    {% for contact in contacts %}
+    <tr>
+        <td>{{ contact.department }}</td>
+        <td>{{ contact.number }}</td>
+        <td>{{ contact.email }}</td>
+    </tr>
+     {% endfor %}
+</table>
+{% endblock %}
