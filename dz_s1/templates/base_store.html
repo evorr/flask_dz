@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Интернет-магазин</title>
+</head>
+<body>
+<h1 align="center" style="font-family:Arial;">Интернет-магазин одежды и обуви</h1>
+<div class="container-fluid">
+    <table align="center" cellpadding="10" width="100%">
+      <tr><td align="center"><a href="/" class="nav-link" style="text-decoration: none; font-family:Arial;"><b>ГЛАВНАЯ</b></a></td>
+          <td align="center"><a href="/clothes/" class="nav-link" style="text-decoration: none;font-family:Arial;"><b>ОДЕЖДА</b></a></td>
+          <td align="center"><a href="/shoes/" class="nav-link" style="text-decoration: none;font-family:Arial;"><b>ОБУВЬ</b></a></td>
+          <td align="center"><a href="/store_contacts/" class="nav-link" style="text-decoration: none;font-family:Arial;"><b>КОНТАКТЫ</b></a></td>
+      </tr>
+    </table>
+<div class="row fixed-bottom modal-footer">
+    <hr>
+</div>
+
+  {% block content %}
+        Нет данных
+  {% endblock %}
+
+  <div class="row fixed-bottom modal-footer">
+      <hr>
+      <p> Все права защищены</p>
+  </div>
+</div>
+</body>
+</html>
