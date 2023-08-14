@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Проверка</h1>
+{% for user in users %}
+<p>{{ user.name }} {{ user.surname }}</p>
+<p>{{ user.date_birth }}</p>
+<p>{{ user.email }}</p>
+<p>{{ user.password }}</p>
+{% endfor %}
+</body>
+</html>
